@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index2.css">
     <link rel="shortcut icon" href="./img/pixlr-bg-result.png" type="image/x-icon">
-    <title>Giới thiệu</title>
+    <title>Hỏi đáp</title>
 </head>
 
 <body>
@@ -49,26 +49,54 @@
         <div class="contents">
             <div class="content_body">
                 <article class="article_intro">
-                    <iframe src="about_me.html" frameborder="0" name="intro" scrolling="auto"></iframe>
+                    <div class="contents wrap">
+                        <div class="content_body">
+                            <div class="content_qanda center">
+                                <div class="feedback_box box">
+                                    <h1 class="contact_title">GÓP Ý</h1>
+                                    <div class="contact_info center">
+                                        <form class="feedback_form">
+                                            <div class="each_field">
+                                                <label for="name">Họ tên:</label>
+                                                <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" class="input_form" required>
+                                            </div>
+                                            <div class="each_field">
+                                                <label for="email">Email:</label>
+                                                <input type="email" id="email" name="email" placeholder="hungndph26995@fpt.edu.vn" class="input_form" required>
+                                            </div>
+                                            <div class="each_field">
+                                                <label for="phone_number">Số điện thoại:</label>
+                                                <input type="text" id="phone_number" name="phone_number" placeholder="0123.456.789" class="input_form">
+                                            </div>
+                                            <div class="each_field">
+                                                <label for="content">Nội dung:</label>
+                                                <textarea id="content" name="content" class="input_form" cols="30" rows="10" placeholder="Điền nội dung vào đây" required></textarea>
+                                            </div>
+                                            <button type="submit" class="submit_button">Gửi</button>
+                                        </form>
+                                    </div>
+                                </div>
+            
+                                <div class="qanda_box box">
+                                    <h1 class="contact_title">HỎI & ĐÁP</h1>
+                                    <div class="each_qanda">
+                                        <h1 class="question">Câu hỏi</h1>
+                                        <p class="answer">Câu trả lời</p>
+                                    </div>
+                                    <div class="each_qanda">
+                                        <h1 class="question">Câu hỏi</h1>
+                                        <p class="answer">Câu trả lời</p>
+                                    </div>
+                                    <div class="each_qanda">
+                                        <h1 class="question">Câu hỏi</h1>
+                                        <p class="answer">Câu trả lời</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </article>
                 <aside class="aside_intro">
-                    <ul class="vmenu">
-                        <li>
-                            <a href="about_me.html" target="intro">Bản thân</a>
-                        </li>
-                        <li>
-                            <a href="father.html" target="intro">Bố</a>
-                        </li>
-                        <li>
-                            <a href="mother.html" target="intro">Mẹ</a>
-                        </li>
-                        <li>
-                            <a href="sibling.html" target="intro">Anh chị</a>
-                        </li>
-                        <li>
-                            <a href="friend.html" target="intro">Bạn thân</a>
-                        </li>
-                    </ul>
+                   
                 </aside>
             </div>
             <div class="clear"></div>
