@@ -451,14 +451,14 @@ iframe[name=intro] {
     height: 150px;
 }
 
-/*.contacts_top>.right button {
+.contacts_top>.right button {
     width: 50px;
     height: 30px;
     background-color: black;
     color: white;
     font-weight: bold;
     display: block;
-}*/
+}
 
 /* feedback */
 .feedback_box {
