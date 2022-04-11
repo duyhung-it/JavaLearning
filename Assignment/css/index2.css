@@ -252,7 +252,7 @@ iframe[name=intro] {
     background: url("../img/banner1.jpg") no-repeat center;
     background-size: cover;
     position: relative;
-    min-height: 700px;
+    min-height: 500px;
     background-attachment: fixed;
 }
 
