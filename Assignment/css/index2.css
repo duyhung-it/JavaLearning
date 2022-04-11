@@ -248,10 +248,11 @@ iframe[name=intro] {
 
 /* banner */
 .banner {
+    display:block;
     background: url("../img/banner1.jpg") no-repeat center;
     background-size: cover;
     position: relative;
-    height: 450px;
+    min-height: 500px;
     background-attachment: fixed;
 }
 
@@ -458,6 +459,7 @@ iframe[name=intro] {
     color: white;
     font-weight: bold;
     display: block;
+    float:left;
 }
 
 /* feedback */
